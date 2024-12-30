@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.App {
+  
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Atur elemen agar tidak menempel di tengah */
+    min-height: 100vh;
+    padding-top: 50px; /* Tambahkan jarak */
+}
+h1 {
+      font-weight: 600;
+      font-size: 40px;
+      line-height: 60px;
+    
+      background: linear-gradient(267.81deg, #3CBF7B 1.92%, #ADD1B4 106.64%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+  
+    color: #454545;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    
+    color: #454545;  
+}
+h4 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;  
+    color: #3CBF7B;
+
+}
+h5{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #3CBF7B;
+}
+
+h6{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+  
+    color: #454545;
+
+}
+.title-sm {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+  
+
+    color: #A1A1A1;
+}
+.title-md {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+
+
+  color: #A1A1A1;
+}
+.Card-wrapper {
+    background: #FFFFFF;
+    border: 1px solid #F4F4F4;
+    box-shadow: 0px 6px 30px rgba(206, 206, 206, 0.25);
+    border-radius: 14px;
+}
+
+.icon-wrapper-IN{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    width: 30px;
+    height: 30px;
+    background: #E4E5FF;
+    border-radius: 6px;
+    color:#3CBF7B;
+}
+.icon-wrapper-OUT{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  width: 30px;
+  height: 30px;
+  background: #FFECF0;
+  border-radius: 6px;
+  color:#FF3666;
+}
+.text-ungu{
+    color: #3CBF7B;
+}
+.duit-in {
+  color:#3CBF7B;
+}
+.duit-out {
+  color:#ef4444;
+}
