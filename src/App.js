@@ -57,6 +57,24 @@ class App extends React.Component {
     return statistik;
   }
   
+  dataJson(){
+    const jsonData = JSON.stringify(this.state.summary, null, 2);
+    console.log(jsonData);
+  }
+  handleExportJSON() {
+    const jsonData = JSON.stringify(this.state.summary, null, 2);
+    console.log(jsonData);
+  }
+  handleDownloadJSON() {
+    const jsonData = JSON.stringify(this.state.summary, null, 2);
+    const blob = new Blob([jsonData], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'summary.json';
+    a.click();
+    URL.revokeObjectURL(url);
+  }
   
   tambahItem(objek){
     let newData = [...this.state.summary, objek]
@@ -158,10 +176,13 @@ fnHitung(){
         <div className='wrapper-button flex space-x-4'>
         <ModalCreate action={this.tambahItem} category='IN' variant='flex items-center bg-blue-500 text-white px-4 py-2 rounded' text='Pemasukkan' icon='FaCirclePlus' modalHeading='Tambahkan Pemasukan'/>
         <ModalCreate action={this.tambahItem} category='OUT' variant='flex items-center bg-red-500 text-white px-4 py-2 rounded' text='Pengeluaran' icon='FaMinusCircle' modalHeading='Tambahkan Pengeluaran'/>
-        <ModalStatistik 
-        summary={this.state.summary} 
-        hitungStatistik={this.hitungStatistikBulanan.bind(this)} 
-        />
+        <ModalStatistik summary={this.state.summary} hitungStatistik={this.hitungStatistikBulanan.bind(this)} /> 
+        <button onClick={() => this.handleExportJSON()} className="bg-blue-500 text-white px-4 py-2 rounded">
+        Ekspor ke JSON
+        </button> 
+        <button onClick={() => this.handleDownloadJSON()} className="bg-green-500 text-white px-4 py-2 rounded">
+            Unduh JSON
+          </button>
         </div>
       </div>
     </div>
@@ -177,10 +198,13 @@ fnHitung(){
             <div className='transaction ms-2 flex flex-col'>
               <h6>{sum.deskripsi}</h6>
               <span className='title-sm'>{sum.tanggal}</span>
+              <div>
+              </div>
             </div>
           </div>
-          <h5 className={sum.category === 'IN' ? 'duit-in' : 'duit-out'}>Rp. {sum.nominal}</h5>
-        </div>
+          <h5 className={sum.category === 'IN' ? 'duit-in' : 'duit-out'}>Rp. {sum.nominal}</h5> 
+        </div> 
+        
         )
       }) }
    
