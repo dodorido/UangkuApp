@@ -12,11 +12,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    <Router>
+    <Router basename="/UangkuApp">
       <Routes>
-        <Route path="/Homepage" element={<Homepage />} />
+        <Route path="/" element={<Homepage />} /> {/* Root path menuju Homepage */}
         <Route path="/hitung-modal" element={<HitungModal />} />
-        <Route path="/uangku" element={<UangkuAppWrapper />} /> {/* Rute ke HitungModal */}
+        <Route path="/uangku" element={<UangkuAppWrapper />} />
         <Route path="/financial-chart" element={<FinancialChart />} />
       </Routes>
     </Router>
