@@ -7,9 +7,9 @@
   
     display: flex;
     justify-content: center;
-    align-items: flex-start; /* Atur elemen agar tidak menempel di tengah */
+    align-items: flex-start; 
     min-height: 100vh;
-    padding-top: 50px; /* Tambahkan jarak */
+    padding-top: 50px; 
 }
 h1 {
       font-weight: 600;
@@ -118,3 +118,5 @@ h6{
 .duit-out {
   color:#ef4444;
 }
+
+

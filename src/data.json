@@ -1,0 +1,207 @@
+{
+    "summary": [
+      {
+        "deskripsi": "Dapat Uang di jalanan",
+        "tanggal": "13 july 2023",
+        "nominal": 10000,
+        "category": "IN"
+      },
+      {
+        "deskripsi": "Gaji Bulanan",
+        "tanggal": "1 january 2024",
+        "nominal": 5000000,
+        "category": "IN"
+      },
+      {
+        "deskripsi": "Belanja Bulanan",
+        "tanggal": "5 january 2024",
+        "nominal": 1000000,
+        "category": "OUT"
+      },
+      {
+        "deskripsi": "Belanja Bulanan",
+        "tanggal": "5 January 2024",
+        "nominal": 1000000,
+        "category": "OUT"
+      },
+      {
+        "deskripsi": "Gaji Bulanan",
+        "tanggal": "1 January 2024",
+        "nominal": 5000000,
+        "category": "IN"
+      },
+      {
+        "deskripsi": "Beli Makanan",
+        "tanggal": "6 January 2024",
+        "nominal": 200000,
+        "category": "OUT"
+      },
+      {
+        "deskripsi": "Bonus Akhir Tahun",
+        "tanggal": "31 December 2023",
+        "nominal": 1500000,
+        "category": "IN"
+      },
+      {
+        "deskripsi": "Bayar Listrik",
+        "tanggal": "10 January 2024",
+        "nominal": 300000,
+        "category": "OUT"
+      },
+      {
+        "deskripsi": "Menjual Barang Bekas",
+        "tanggal": "15 January 2024",
+        "nominal": 750000,
+        "category": "IN"
+      },
+      {
+        "deskripsi": "Bayar Internet",
+        "tanggal": "8 January 2024",
+        "nominal": 250000,
+        "category": "OUT"
+      },
+      {
+        "deskripsi": "Uang Hadiah",
+        "tanggal": "2 January 2024",
+        "nominal": 500000,
+        "category": "IN"
+      },
+      {
+        "deskripsi": "Makan di Restoran",
+        "tanggal": "7 January 2024",
+        "nominal": 150000,
+        "category": "OUT"
+      },
+      {
+        "deskripsi": "Penghasilan Freelance",
+        "tanggal": "20 January 2024",
+        "nominal": 2000000,
+        "category": "IN"
+      },
+      {
+        "deskripsi": "Beli Buku",
+        "tanggal": "12 January 2024",
+        "nominal": 100000,
+        "category": "OUT"
+      },
+      {
+        "deskripsi": "Menjual Barang Elektronik",
+        "tanggal": "18 January 2024",
+        "nominal": 1200000,
+        "category": "IN"
+      },
+      {
+        "deskripsi": "Bayar Asuransi",
+        "tanggal": "9 January 2024",
+        "nominal": 400000,
+        "category": "OUT"
+      },
+      {
+        "deskripsi": "Uang Lembur",
+        "tanggal": "22 January 2024",
+        "nominal": 350000,
+        "category": "IN"
+      },
+      {
+        "deskripsi": "Beli Peralatan Dapur",
+        "tanggal": "14 January 2024",
+        "nominal": 500000,
+        "category": "OUT"
+      },
+      {
+        "deskripsi": "Penjualan Saham",
+        "tanggal": "25 January 2024",
+        "nominal": 3000000,
+        "category": "IN"
+      },
+      {
+        "deskripsi": "Bayar Cicilan Motor",
+        "tanggal": "16 January 2024",
+        "nominal": 1000000,
+        "category": "OUT"
+      },
+      {
+        "deskripsi": "Penerimaan Dividen",
+        "tanggal": "30 January 2024",
+        "nominal": 800000,
+        "category": "IN"
+      },
+      {
+        "deskripsi": "Beli Baju Baru",
+        "tanggal": "11 January 2024",
+        "nominal": 300000,
+        "category": "OUT"
+      },
+      {
+        "deskripsi": "Jual Perhiasan",
+        "tanggal": "21 January 2024",
+        "nominal": 1000000,
+        "category": "IN"
+      },
+      {
+        "deskripsi": "Belanja Online",
+        "tanggal": "13 January 2024",
+        "nominal": 600000,
+        "category": "OUT"
+      },
+      {
+        "deskripsi": "Hadiah Ulang Tahun",
+        "tanggal": "3 January 2024",
+        "nominal": 450000,
+        "category": "IN"
+      },
+      {
+        "deskripsi": "Beli Obat-obatan",
+        "tanggal": "17 January 2024",
+        "nominal": 150000,
+        "category": "OUT"
+      },
+      {
+        "deskripsi": "Menjual Barang Handmade",
+        "tanggal": "19 January 2024",
+        "nominal": 500000,
+        "category": "IN"
+      },
+      {
+        "deskripsi": "Beli Tiket Bioskop",
+        "tanggal": "4 January 2024",
+        "nominal": 100000,
+        "category": "OUT"
+      },
+      {
+        "deskripsi": "Uang Kembalian",
+        "tanggal": "5 January 2024",
+        "nominal": 20000,
+        "category": "IN"
+      },
+      {
+        "deskripsi": "Beli Kado",
+        "tanggal": "26 January 2024",
+        "nominal": 250000,
+        "category": "OUT"
+      },
+      {
+        "deskripsi": "Refund Tiket",
+        "tanggal": "28 January 2024",
+        "nominal": 100000,
+        "category": "IN"
+      },
+      {
+        "deskripsi": "Bayar Parkir",
+        "tanggal": "8 January 2024",
+        "nominal": 20000,
+        "category": "OUT"
+      },
+      {
+        "deskripsi": "Bonus Kecil",
+        "tanggal": "10 January 2024",
+        "nominal": 100000,
+        "category": "IN"
+      }
+    ]
+  }
+
+
+
+
+  
